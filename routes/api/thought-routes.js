@@ -16,12 +16,12 @@ router.route('/:thoughtId').get(thoughtById);
 router.route('/:userId').post(addThought);
 
 router
-    .route('/:userId/thoughtId')
+    .route('/:userId/:thoughtId')
     .delete(removeThought)
     .put(updateThought);
 
 router
-    .route('/:userId/thoughtId/reactions')
+    .route('/:userId/:thoughtId/reactions')
     .post(addReaction);
 
 router
