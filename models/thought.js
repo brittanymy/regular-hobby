@@ -1,10 +1,10 @@
-const { Schema, model } = require('mongoose');
+const { Schema, model, Types } = require('mongoose');
 const dateFormat = require('../utils/dateFormat');
 
 const reactionSchema = new Schema({
     reactionId: {
         type: Schema.Types.ObjectId,
-        default: () => new Schema.Types.ObjectId()
+        default: () => new Types.ObjectId()
     },
     username: {
         type: String,
@@ -24,7 +24,8 @@ const reactionSchema = new Schema({
     {
         toJSON: {
             getters: true
-        }
+        },
+        id:false
     }
 );
 
