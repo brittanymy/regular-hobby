@@ -24,4 +24,8 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 https://github.com/brittanymy/regular-hobby
 
+<img width="539" alt="Screen Shot 2022-07-20 at 2 33 30 PM" src="https://user-images.githubusercontent.com/97000955/180056716-eab26575-cbd6-4203-869d-c0926c655558.png">
+
+^ If you receive this message when clicking on the link below, please click download for my walkthrough video.
+
 https://drive.google.com/file/d/1zz_5ot3lCFCM4AzKssMUT2QHm-iM0tR5/view
